@@ -1,33 +1,24 @@
-# OpenToy Android Distribution
+# OpenToy Android Distribute
 
-This repository contains the source code for the OpenToy Android library, which is distributed via JitPack.
+This repository contains the source code for the OpenToy Android library. It is used as a distribution point for the library's source code, which can be directly included in other projects.
 
 ## Usage
 
-To use the OpenToy Android library in your project, add the following to your `build.gradle`:
+To use this library in your project, you can either:
 
-```gradle
-allprojects {
-    repositories {
-        google()
-        mavenCentral()
-        maven { url 'https://jitpack.io' }
-    }
-}
+1. Include the source code directly in your project
+2. Build and use the AAR file
 
-dependencies {
-    implementation 'com.github.mobius-toy:opentoy_android_distribute:1.0.3'
-}
-```
+## Building the AAR
 
-## Building
-
-To build the library locally:
+To build the AAR file, run:
 
 ```bash
 ./gradlew assembleRelease
 ```
 
+The AAR file will be located in `build/outputs/aar/`.
+
 ## License
 
-This library is licensed under the Apache License 2.0.
+This project is licensed under the MIT License.

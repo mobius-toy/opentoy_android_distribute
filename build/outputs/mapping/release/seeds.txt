@@ -1,0 +1,64 @@
+com.mobius.opentoy.OpenToyError
+com.mobius.opentoy.OpenToyCoreDelegate
+com.mobius.opentoy.R
+com.mobius.opentoy.OpenToyDevice
+com.mobius.opentoy.OpenToyAndroid
+com.mobius.opentoy.OpenToyResult
+com.mobius.opentoy.OpenToyAndroid: java.lang.String TAG
+com.mobius.opentoy.OpenToyAndroid: java.util.concurrent.ConcurrentHashMap connectedDevices
+com.mobius.opentoy.OpenToyAndroid: java.util.concurrent.ConcurrentHashMap discoveredDevices
+com.mobius.opentoy.OpenToyDevice: java.lang.String id
+com.mobius.opentoy.OpenToyDevice: java.lang.String name
+com.mobius.opentoy.OpenToyAndroid: com.mobius.opentoy.BluetoothManager bluetoothManager
+com.mobius.opentoy.OpenToyDevice: boolean isConnectable
+com.mobius.opentoy.OpenToyAndroid: com.mobius.opentoy.OpenToyAndroid$Companion Companion
+com.mobius.opentoy.OpenToyAndroid: com.mobius.opentoy.OpenToyCoreDelegate delegate
+com.mobius.opentoy.OpenToyAndroid: java.util.concurrent.ConcurrentHashMap discoveryStates
+com.mobius.opentoy.OpenToyDevice: int rssi
+com.mobius.opentoy.OpenToyAndroid: android.content.Context context
+com.mobius.opentoy.OpenToyResult: OpenToyResult()
+com.mobius.opentoy.OpenToyAndroid: void setDelegate(com.mobius.opentoy.OpenToyCoreDelegate)
+com.mobius.opentoy.OpenToyCoreDelegate: void characteristicReadFailed(java.lang.String,java.lang.String,java.lang.String)
+com.mobius.opentoy.OpenToyError: java.lang.String getMessage()
+com.mobius.opentoy.OpenToyError: OpenToyError(kotlin.jvm.internal.DefaultConstructorMarker)
+com.mobius.opentoy.OpenToyAndroid: com.mobius.opentoy.OpenToyCoreDelegate getDelegate()
+com.mobius.opentoy.OpenToyDevice: java.lang.String getName()
+com.mobius.opentoy.OpenToyDevice: int component3()
+com.mobius.opentoy.OpenToyError: OpenToyError()
+com.mobius.opentoy.OpenToyDevice: int getRssi()
+com.mobius.opentoy.OpenToyDevice: com.mobius.opentoy.OpenToyDevice copy(java.lang.String,java.lang.String,int,boolean)
+com.mobius.opentoy.OpenToyCoreDelegate: void deviceConnected(java.lang.String,java.util.Map)
+com.mobius.opentoy.OpenToyCoreDelegate: void deviceDisconnected(java.lang.String,java.lang.String)
+com.mobius.opentoy.OpenToyDevice: java.lang.String toString()
+com.mobius.opentoy.OpenToyDevice: boolean equals(java.lang.Object)
+com.mobius.opentoy.OpenToyAndroid: com.mobius.opentoy.OpenToyResult stopScan()
+com.mobius.opentoy.OpenToyAndroid: com.mobius.opentoy.OpenToyResult initializeBluetooth()
+com.mobius.opentoy.OpenToyAndroid: com.mobius.opentoy.OpenToyResult connectToDevice(java.lang.String)
+com.mobius.opentoy.OpenToyCoreDelegate: void bluetoothStateChanged(java.lang.String)
+com.mobius.opentoy.OpenToyDevice: OpenToyDevice(java.lang.String,java.lang.String,int,boolean)
+com.mobius.opentoy.OpenToyDevice: java.lang.String component1()
+com.mobius.opentoy.OpenToyCoreDelegate: void servicesDiscoveryFailed(java.lang.String,java.lang.String)
+com.mobius.opentoy.OpenToyAndroid: java.util.Map initializeDeviceInfo(java.lang.String)
+com.mobius.opentoy.OpenToyDevice: boolean isConnectable()
+com.mobius.opentoy.OpenToyCoreDelegate: void characteristicValueUpdated(java.lang.String,java.lang.String,java.util.List)
+com.mobius.opentoy.OpenToyAndroid: com.mobius.opentoy.OpenToyResult startScan()
+com.mobius.opentoy.OpenToyCoreDelegate: void characteristicWriteFailed(java.lang.String,java.lang.String,java.lang.String)
+com.mobius.opentoy.OpenToyCoreDelegate: void deviceConnectionFailed(java.lang.String,java.lang.String)
+com.mobius.opentoy.OpenToyAndroid: OpenToyAndroid()
+com.mobius.opentoy.OpenToyAndroid: kotlin.Unit startScan$lambda$0(com.mobius.opentoy.OpenToyAndroid,com.mobius.opentoy.OpenToyDevice)
+com.mobius.opentoy.OpenToyDevice: java.lang.String getId()
+com.mobius.opentoy.OpenToyDevice: boolean component4()
+com.mobius.opentoy.OpenToyAndroid: void readBatteryLevel(java.lang.String,kotlin.jvm.functions.Function1)
+com.mobius.opentoy.OpenToyCoreDelegate: void characteristicWriteSuccess(java.lang.String,java.lang.String)
+com.mobius.opentoy.R: R()
+com.mobius.opentoy.OpenToyAndroid: void cleanup()
+com.mobius.opentoy.OpenToyCoreDelegate: void characteristicsDiscoveryFailed(java.lang.String,java.lang.String,java.lang.String)
+com.mobius.opentoy.OpenToyResult: OpenToyResult(kotlin.jvm.internal.DefaultConstructorMarker)
+com.mobius.opentoy.OpenToyDevice: int hashCode()
+com.mobius.opentoy.OpenToyDevice: com.mobius.opentoy.OpenToyDevice copy$default(com.mobius.opentoy.OpenToyDevice,java.lang.String,java.lang.String,int,boolean,int,java.lang.Object)
+com.mobius.opentoy.OpenToyAndroid: void writeMotor(java.lang.String,java.util.List,kotlin.jvm.functions.Function1)
+com.mobius.opentoy.OpenToyAndroid: void setContext(android.content.Context)
+com.mobius.opentoy.OpenToyAndroid: com.mobius.opentoy.OpenToyResult disconnectFromDevice(java.lang.String)
+com.mobius.opentoy.OpenToyCoreDelegate: void deviceDiscovered(java.util.Map)
+com.mobius.opentoy.OpenToyAndroid: kotlin.Unit connectToDevice$lambda$1(com.mobius.opentoy.OpenToyAndroid,java.lang.String,boolean,java.lang.String)
+com.mobius.opentoy.OpenToyDevice: java.lang.String component2()

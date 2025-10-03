@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.mobius.opentoy-release-10:/layout-v21/notification_action.xml",
+        "source": "com.mobius.opentoy-core-1.13.1-2:/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "com.mobius.opentoy-release-10:/layout-v21/notification_action_tombstone.xml",
+        "source": "com.mobius.opentoy-core-1.13.1-2:/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "com.mobius.opentoy-release-10:/layout-v21/notification_template_icon_group.xml",
+        "source": "com.mobius.opentoy-core-1.13.1-2:/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "com.mobius.opentoy-release-10:/layout-v21/notification_template_custom_big.xml",
+        "source": "com.mobius.opentoy-core-1.13.1-2:/layout-v21/notification_template_custom_big.xml"
+    }
+]

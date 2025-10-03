@@ -1,0 +1,14 @@
+com.mobius.opentoy-jetified-core-ktx-1.13.1-0 /Users/ddd/.gradle/caches/8.11.1/transforms/219f9c2b8aaf57ac0ab7c22eb90fa3f2/transformed/jetified-core-ktx-1.13.1/res
+com.mobius.opentoy-core-runtime-2.2.0-1 /Users/ddd/.gradle/caches/8.11.1/transforms/361d07d7ef7b1223ecc8b1ba9abbb586/transformed/core-runtime-2.2.0/res
+com.mobius.opentoy-core-1.13.1-2 /Users/ddd/.gradle/caches/8.11.1/transforms/4f5bf9ba91a29d6b8c6e3ff001af4217/transformed/core-1.13.1/res
+com.mobius.opentoy-jetified-annotation-experimental-1.4.0-3 /Users/ddd/.gradle/caches/8.11.1/transforms/5e1162d3e066cac9ecf96dfcccb85712/transformed/jetified-annotation-experimental-1.4.0/res
+com.mobius.opentoy-jetified-profileinstaller-1.3.0-4 /Users/ddd/.gradle/caches/8.11.1/transforms/70db20f76ad86935c6f43b73a9825835/transformed/jetified-profileinstaller-1.3.0/res
+com.mobius.opentoy-jetified-startup-runtime-1.1.1-5 /Users/ddd/.gradle/caches/8.11.1/transforms/acb49427e0743a5abd18087aeb9655ab/transformed/jetified-startup-runtime-1.1.1/res
+com.mobius.opentoy-lifecycle-runtime-2.6.2-6 /Users/ddd/.gradle/caches/8.11.1/transforms/eda446dace6ea35216b59b5bbc05727f/transformed/lifecycle-runtime-2.6.2/res
+com.mobius.opentoy-pngs-7 /Users/ddd/GitHub/opentoy_workspace/opentoy_android_distribute/build/generated/res/pngs/release
+com.mobius.opentoy-resValues-8 /Users/ddd/GitHub/opentoy_workspace/opentoy_android_distribute/build/generated/res/resValues/release
+com.mobius.opentoy-mergeReleaseResources-9 /Users/ddd/GitHub/opentoy_workspace/opentoy_android_distribute/build/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.mobius.opentoy-mergeReleaseResources-10 /Users/ddd/GitHub/opentoy_workspace/opentoy_android_distribute/build/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.mobius.opentoy-release-11 /Users/ddd/GitHub/opentoy_workspace/opentoy_android_distribute/build/intermediates/merged_res/release/mergeReleaseResources
+com.mobius.opentoy-main-12 /Users/ddd/GitHub/opentoy_workspace/opentoy_android_distribute/src/main/res
+com.mobius.opentoy-release-13 /Users/ddd/GitHub/opentoy_workspace/opentoy_android_distribute/src/release/res

@@ -1,0 +1,146 @@
+# compiler: R8
+# compiler_version: 8.9.32
+# common_typos_disable
+# {"id":"com.android.tools.r8.mapping","version":"2.2"}
+# pg_map_id: 7cebcbc
+# pg_map_hash: SHA-256 7cebcbcaeb5c1dafd35c69fd80a562dc2bac47430d84684caf8ffbe46e79f6f2
+com.mobius.opentoy.BluetoothManager -> a.c:
+# {"id":"sourceFile","fileName":"BluetoothManager.kt"}
+    android.content.Context context -> a
+    android.bluetooth.BluetoothAdapter bluetoothAdapter -> b
+    android.bluetooth.le.BluetoothLeScanner bluetoothLeScanner -> c
+    boolean isScanning -> d
+    android.bluetooth.le.ScanCallback scanCallback -> e
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/b;"}
+    1:1:void <init>(android.content.Context):20:20 -> <init>
+    1:104:android.bluetooth.BluetoothDevice getBluetoothDevice(java.lang.String):0:103 -> a
+    1:104:void connect(java.lang.String,kotlin.jvm.functions.Function2):107 -> a
+    105:137:void connect(java.lang.String,kotlin.jvm.functions.Function2):109:141 -> a
+    138:155:boolean initialize():33:50 -> a
+    156:184:void startScan(kotlin.jvm.functions.Function1):56:84 -> a
+    1:10:void stopScan():89:98 -> b
+com.mobius.opentoy.BluetoothManager$connect$gattCallback$1 -> a.a:
+# {"id":"sourceFile","fileName":"BluetoothManager.kt"}
+    java.lang.String $deviceId -> a
+    kotlin.jvm.functions.Function2 $callback -> b
+    1:1:void <init>(java.lang.String,kotlin.jvm.functions.Function2):113:113 -> <init>
+    1:7:void onConnectionStateChange(android.bluetooth.BluetoothGatt,int,int):117:123 -> onConnectionStateChange
+    1:3:void onServicesDiscovered(android.bluetooth.BluetoothGatt,int):130:132 -> onServicesDiscovered
+com.mobius.opentoy.BluetoothManager$startScan$1 -> a.b:
+# {"id":"sourceFile","fileName":"BluetoothManager.kt"}
+    kotlin.jvm.functions.Function1 $onDeviceFound -> a
+    com.mobius.opentoy.BluetoothManager this$0 -> b
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/c;"}
+    1:1:void <init>(kotlin.jvm.functions.Function1,com.mobius.opentoy.BluetoothManager):61:61 -> <init>
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lkotlin/jvm/functions/Function1;La/c;)V"}
+    1:2:void onScanFailed(int):74:75 -> onScanFailed
+    3:3:void com.mobius.opentoy.BluetoothManager.access$setScanning$p(com.mobius.opentoy.BluetoothManager,boolean):20:20 -> onScanFailed
+    3:3:void onScanFailed(int):75 -> onScanFailed
+    1:6:void onScanResult(int,android.bluetooth.le.ScanResult):63:68 -> onScanResult
+    7:13:void onScanResult(int,android.bluetooth.le.ScanResult):64:70 -> onScanResult
+com.mobius.opentoy.OpenToyAndroid -> com.mobius.opentoy.OpenToyAndroid:
+# {"id":"sourceFile","fileName":"OpenToyAndroid.kt"}
+    com.mobius.opentoy.OpenToyAndroid$Companion Companion -> Companion
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/d;"}
+    com.mobius.opentoy.BluetoothManager bluetoothManager -> bluetoothManager
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/c;"}
+    1:8:void <init>():13:20 -> <init>
+    1:1:void cleanup():215:215 -> cleanup
+    2:2:void readBatteryLevel(java.lang.String,kotlin.jvm.functions.Function1):146:146 -> cleanup
+    2:2:void com.mobius.opentoy.BluetoothManager.cleanup():146 -> cleanup
+    2:2:void cleanup():215 -> cleanup
+    3:4:void com.mobius.opentoy.BluetoothManager.cleanup():147:148 -> cleanup
+    3:4:void cleanup():215 -> cleanup
+    5:5:void readBatteryLevel(java.lang.String,kotlin.jvm.functions.Function1):149:149 -> cleanup
+    5:5:void com.mobius.opentoy.BluetoothManager.cleanup():149 -> cleanup
+    5:5:void cleanup():215 -> cleanup
+    6:22:void cleanup():216:232 -> cleanup
+    23:40:void cleanup():217:234 -> cleanup
+    41:53:void cleanup():222:234 -> cleanup
+    54:67:void cleanup():221:234 -> cleanup
+    1:14:com.mobius.opentoy.OpenToyResult connectToDevice(java.lang.String):92:105 -> connectToDevice
+    1:5:kotlin.Unit connectToDevice$lambda$1(com.mobius.opentoy.OpenToyAndroid,java.lang.String,boolean,java.lang.String):97:101 -> connectToDevice$lambda$1
+    1:11:com.mobius.opentoy.OpenToyResult disconnectFromDevice(java.lang.String):114:124 -> disconnectFromDevice
+    12:19:com.mobius.opentoy.OpenToyResult disconnectFromDevice(java.lang.String):120:127 -> disconnectFromDevice
+    1:1:void setDelegate(com.mobius.opentoy.OpenToyCoreDelegate):21:21 -> getDelegate
+    1:1:com.mobius.opentoy.OpenToyCoreDelegate getDelegate():21 -> getDelegate
+    1:10:com.mobius.opentoy.OpenToyResult initializeBluetooth():35:44 -> initializeBluetooth
+    1:10:java.util.Map initializeDeviceInfo(java.lang.String):190:199 -> initializeDeviceInfo
+    1:1:void readBatteryLevel(java.lang.String,kotlin.jvm.functions.Function1):141:141 -> readBatteryLevel
+    2:8:void readBatteryLevel(java.lang.String,kotlin.jvm.functions.Function1):136:142 -> readBatteryLevel
+    9:9:void readBatteryLevel(java.lang.String,kotlin.jvm.functions.Function1):141:141 -> readBatteryLevel
+    1:1:void setContext(android.content.Context):208:208 -> setContext
+    1:1:void setDelegate(com.mobius.opentoy.OpenToyCoreDelegate):21:21 -> setDelegate
+    1:15:com.mobius.opentoy.OpenToyResult startScan():54:68 -> startScan
+    1:4:kotlin.Unit startScan$lambda$0(com.mobius.opentoy.OpenToyAndroid,com.mobius.opentoy.OpenToyDevice):56:59 -> startScan$lambda$0
+    5:13:kotlin.Unit startScan$lambda$0(com.mobius.opentoy.OpenToyAndroid,com.mobius.opentoy.OpenToyDevice):55:63 -> startScan$lambda$0
+    1:6:com.mobius.opentoy.OpenToyResult stopScan():78:83 -> stopScan
+    1:7:void writeMotor(java.lang.String,java.util.List,kotlin.jvm.functions.Function1):161:167 -> writeMotor
+    8:8:void writeMotor(java.lang.String,java.util.List,kotlin.jvm.functions.Function1):166:166 -> writeMotor
+com.mobius.opentoy.OpenToyAndroid$Companion -> a.d:
+# {"id":"sourceFile","fileName":"OpenToyAndroid.kt"}
+    1:1:void <init>():23:23 -> <init>
+    1:1:void <init>(kotlin.jvm.internal.DefaultConstructorMarker):0 -> <init>
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()V"}
+com.mobius.opentoy.OpenToyCoreDelegate -> com.mobius.opentoy.OpenToyCoreDelegate:
+# {"id":"sourceFile","fileName":"OpenToyCoreDelegate.kt"}
+com.mobius.opentoy.OpenToyDevice -> com.mobius.opentoy.OpenToyDevice:
+# {"id":"sourceFile","fileName":"OpenToyDevice.kt"}
+    1:5:void <init>(java.lang.String,java.lang.String,int,boolean):6:10 -> <init>
+    1:1:java.lang.String getId():7:7 -> getId
+    1:1:java.lang.String getName():8:8 -> getName
+    1:1:int getRssi():9:9 -> getRssi
+    1:1:boolean isConnectable():10:10 -> isConnectable
+com.mobius.opentoy.OpenToyError -> com.mobius.opentoy.OpenToyError:
+# {"id":"sourceFile","fileName":"OpenToyResult.kt"}
+    1:1:void <init>(kotlin.jvm.internal.DefaultConstructorMarker):0:0 -> <init>
+    2:2:void <init>():16:16 -> <init>
+    1:9:java.lang.String getMessage():28:36 -> getMessage
+    10:17:java.lang.String getMessage():29:36 -> getMessage
+    18:24:java.lang.String getMessage():30:36 -> getMessage
+    25:30:java.lang.String getMessage():31:36 -> getMessage
+    31:31:java.lang.String getMessage():27:27 -> getMessage
+com.mobius.opentoy.OpenToyError$BluetoothNotAvailable -> a.e:
+# {"id":"sourceFile","fileName":"OpenToyResult.kt"}
+    com.mobius.opentoy.OpenToyError$BluetoothNotAvailable INSTANCE -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/e;"}
+    1:1:void <clinit>():0:0 -> <clinit>
+    1:1:void <init>():18:18 -> <init>
+com.mobius.opentoy.OpenToyError$BluetoothNotInitialized -> a.f:
+# {"id":"sourceFile","fileName":"OpenToyResult.kt"}
+    com.mobius.opentoy.OpenToyError$BluetoothNotInitialized INSTANCE -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+    1:1:void <clinit>():0:0 -> <clinit>
+    1:1:void <init>():17:17 -> <init>
+com.mobius.opentoy.OpenToyError$DeviceNotConnected -> a.g:
+# {"id":"sourceFile","fileName":"OpenToyResult.kt"}
+    com.mobius.opentoy.OpenToyError$DeviceNotConnected INSTANCE -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/g;"}
+    1:1:void <clinit>():0:0 -> <clinit>
+    1:1:void <init>():20:20 -> <init>
+com.mobius.opentoy.OpenToyError$DeviceNotFound -> a.h:
+# {"id":"sourceFile","fileName":"OpenToyResult.kt"}
+    com.mobius.opentoy.OpenToyError$DeviceNotFound INSTANCE -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/h;"}
+    1:1:void <clinit>():0:0 -> <clinit>
+    1:1:void <init>():19:19 -> <init>
+com.mobius.opentoy.OpenToyResult -> com.mobius.opentoy.OpenToyResult:
+# {"id":"sourceFile","fileName":"OpenToyResult.kt"}
+    1:1:void <init>(kotlin.jvm.internal.DefaultConstructorMarker):0:0 -> <init>
+    2:2:void <init>():7:7 -> <init>
+com.mobius.opentoy.OpenToyResult$Failure -> a.i:
+# {"id":"sourceFile","fileName":"OpenToyResult.kt"}
+    com.mobius.opentoy.OpenToyError error -> a
+    1:1:void <init>(com.mobius.opentoy.OpenToyError):9:9 -> <init>
+    1:1:boolean equals(java.lang.Object):0:0 -> equals
+    1:1:int hashCode():0:0 -> hashCode
+    1:1:java.lang.String toString():0:0 -> toString
+com.mobius.opentoy.OpenToyResult$Success -> a.j:
+# {"id":"sourceFile","fileName":"OpenToyResult.kt"}
+    java.lang.Object value -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Ljava/lang/Boolean;"}
+    1:1:void <init>(java.lang.Object):8:8 -> <init>
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()V"}
+    1:1:boolean equals(java.lang.Object):0:0 -> equals
+    1:1:int hashCode():0:0 -> hashCode
+    1:1:java.lang.String toString():0:0 -> toString

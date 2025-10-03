@@ -1,0 +1,76 @@
+com.mobius.opentoy.BluetoothManager:
+    private static final java.lang.String TAG
+com.mobius.opentoy.DeviceDiscoveryState:
+    private final java.util.concurrent.ConcurrentHashMap characteristics
+    private final java.util.concurrent.ConcurrentHashMap characteristicsDiscovered
+    private final java.lang.String deviceId
+    private final kotlinx.coroutines.sync.Mutex mutex
+    private final java.util.concurrent.ConcurrentHashMap pendingReads
+    private final java.util.concurrent.ConcurrentHashMap pendingWrites
+    private final java.util.concurrent.ExecutorService queue
+    private java.util.List services
+    private boolean servicesDiscovered
+    public void <init>(java.lang.String)
+    public final java.util.concurrent.ConcurrentHashMap getCharacteristics()
+    public final java.util.concurrent.ConcurrentHashMap getCharacteristicsDiscovered()
+    public final java.lang.String getDeviceId()
+    public final kotlinx.coroutines.sync.Mutex getMutex()
+    public final java.util.concurrent.ConcurrentHashMap getPendingReads()
+    public final java.util.concurrent.ConcurrentHashMap getPendingWrites()
+    public final java.util.concurrent.ExecutorService getQueue()
+    public final java.util.List getServices()
+    public final boolean getServicesDiscovered()
+    public final void setServices(java.util.List)
+    public final void setServicesDiscovered(boolean)
+com.mobius.opentoy.OpenToyError$EmptyData:
+    public static final com.mobius.opentoy.OpenToyError$EmptyData INSTANCE
+    static void <clinit>()
+    private void <init>()
+com.mobius.opentoy.OpenToyError$InvalidArguments:
+    private final java.lang.String errorMessage
+    public void <init>(java.lang.String)
+    public final java.lang.String component1()
+    public final com.mobius.opentoy.OpenToyError$InvalidArguments copy(java.lang.String)
+    public static synthetic com.mobius.opentoy.OpenToyError$InvalidArguments copy$default(com.mobius.opentoy.OpenToyError$InvalidArguments,java.lang.String,int,java.lang.Object)
+    public boolean equals(java.lang.Object)
+    public int hashCode()
+    public java.lang.String toString()
+com.mobius.opentoy.OpenToyError$ReadFailed:
+    public final java.lang.String component1()
+    public final com.mobius.opentoy.OpenToyError$ReadFailed copy(java.lang.String)
+    public static synthetic com.mobius.opentoy.OpenToyError$ReadFailed copy$default(com.mobius.opentoy.OpenToyError$ReadFailed,java.lang.String,int,java.lang.Object)
+com.mobius.opentoy.OpenToyError$WriteFailed:
+    public final java.lang.String component1()
+    public final com.mobius.opentoy.OpenToyError$WriteFailed copy(java.lang.String)
+    public static synthetic com.mobius.opentoy.OpenToyError$WriteFailed copy$default(com.mobius.opentoy.OpenToyError$WriteFailed,java.lang.String,int,java.lang.Object)
+com.mobius.opentoy.OpenToyResult$Failure:
+    public final com.mobius.opentoy.OpenToyError component1()
+    public final com.mobius.opentoy.OpenToyResult$Failure copy(com.mobius.opentoy.OpenToyError)
+    public static synthetic com.mobius.opentoy.OpenToyResult$Failure copy$default(com.mobius.opentoy.OpenToyResult$Failure,com.mobius.opentoy.OpenToyError,int,java.lang.Object)
+    public final com.mobius.opentoy.OpenToyError getError()
+com.mobius.opentoy.OpenToyResult$Success:
+    public final java.lang.Object component1()
+    public final com.mobius.opentoy.OpenToyResult$Success copy(java.lang.Object)
+    public static synthetic com.mobius.opentoy.OpenToyResult$Success copy$default(com.mobius.opentoy.OpenToyResult$Success,java.lang.Object,int,java.lang.Object)
+    public final java.lang.Object getValue()
+com.mobius.opentoy.OpenToyUUIDs
+com.mobius.opentoy.BluetoothManager$Companion
+com.mobius.opentoy.BluetoothManager:
+    public static final com.mobius.opentoy.BluetoothManager$Companion Companion
+    static void <clinit>()
+    public static void cleanup()
+    public static android.bluetooth.BluetoothDevice getBluetoothDevice()
+com.mobius.opentoy.DeviceDiscoveryState
+com.mobius.opentoy.OpenToyAndroid$$InternalSyntheticThrowCCEIfNotNull$4$18a31a8d5d60807dc5b53a0586efc0ea3c13e4dc4a31935f7791cc83a5174921$0
+com.mobius.opentoy.OpenToyAndroid$$InternalSyntheticThrowCCEIfNotNull$4$29b0d0921518543f181007bb09c00fe47de3e6f728ac7fc7bc12c7f9f0653581$0
+com.mobius.opentoy.OpenToyAndroid$$InternalSyntheticThrowCCEIfNotNull$4$cd4b3435fab1af127613fdb56cc755f3d5d48d56e3c56349fb21bfd2cd1faca3$0
+com.mobius.opentoy.OpenToyAndroid$$InternalSyntheticThrowCCEIfNotNull$4$dbdb05b75394c8d32c3a6668f2a835e20930c714a48d3123d2b00aaf6047a223$0
+com.mobius.opentoy.OpenToyError$$InternalSyntheticThrowCCEIfNotNull$4$97b1d481a294da4affc2f63591c2cc1395b0e82061f4cd047b2ec9bb754f05ce$0
+com.mobius.opentoy.OpenToyError$$InternalSyntheticThrowCCEIfNotNull$8$97b1d481a294da4affc2f63591c2cc1395b0e82061f4cd047b2ec9bb754f05ce$0
+com.mobius.opentoy.OpenToyError$$InternalSyntheticThrowCCEIfNotNull$8$97b1d481a294da4affc2f63591c2cc1395b0e82061f4cd047b2ec9bb754f05ce$1
+com.mobius.opentoy.OpenToyError$EmptyData
+com.mobius.opentoy.OpenToyError$InvalidArguments
+com.mobius.opentoy.OpenToyError$ReadFailed$$InternalSyntheticThrowCCEIfNotNull$8$e8917d9a958e38c5138bcef683ef16918ced70fdba89f5723542188d22c92456$0
+com.mobius.opentoy.OpenToyError$ReadFailed
+com.mobius.opentoy.OpenToyError$WriteFailed$$InternalSyntheticThrowCCEIfNotNull$8$ca61c577304a10790da5af4e3aa17093093adc298608158760a1be25becf9bfb$0
+com.mobius.opentoy.OpenToyError$WriteFailed
