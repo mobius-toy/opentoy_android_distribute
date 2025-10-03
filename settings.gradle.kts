@@ -14,4 +14,4 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "opentoy_android"
+rootProject.name = "opentoy_android_distribute"
