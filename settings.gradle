@@ -1,2 +1,3 @@
 rootProject.name = 'opentoy-android-distribute'
+include ':libs'
 

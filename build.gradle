@@ -19,3 +19,6 @@ task clean(type: Delete) {
     delete rootProject.buildDir
 }
 
+// 明确包含libs模块
+include ':libs'
+
